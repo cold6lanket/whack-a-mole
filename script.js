@@ -5,7 +5,7 @@ const holes = document.querySelectorAll('.hole'),
 
 let lastHole, 
     gameDuration = false, 
-    score =0;
+    score = 0;
 
 startBtn.addEventListener('click', startGame);
 
