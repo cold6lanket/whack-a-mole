@@ -3,8 +3,9 @@ const scoreBoard = document.querySelector('.score');
 const moles = document.querySelectorAll('.mole');
 const startBtn = document.getElementById('btn-start');
 
-let lastHole, gameDuration = false;
-let score = 0;
+let lastHole, 
+    gameDuration = false, 
+    score =0;
 
 startBtn.addEventListener('click', startGame);
 
