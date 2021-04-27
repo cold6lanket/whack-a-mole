@@ -30,11 +30,12 @@ function startGame() {
     score = 0;
     gameDuration = false;
     scoreBoard.textContent = score;
+    startBtn.textContent = 'Start!';
     showMole();
 
     setTimeout(() => {
         gameDuration = true;
-        alert('Finish!');
+        startBtn.textContent = 'Play again';
     }, 10000);
 }
 
